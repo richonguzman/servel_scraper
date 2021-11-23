@@ -7,7 +7,7 @@ from servel_scraper.downloader.cut_csv_repo import CUTCSVRepository, CUTField, C
 from servel_scraper.downloader.file_downloader import FileDownloader
 from tqdm import tqdm
 
-CDN_BASE_URL = 'http://cdn.servel.cl/padron'
+CDN_BASE_URL = 'http://cdn.servel.cl/padrondefinitivo'
 
 _DEFAULT_CUT_COLUMNS_CSV: Dict[CUTField, str] = {
     CUTField.NOMBRE_REGION: 'Nombre Región',
